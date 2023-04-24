@@ -1,0 +1,171 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+colours {
+    border-color: chocolate;
+    border-color: coral;
+    border-color: darkorange;
+    border-color: orange;
+    border-color: orangered;
+    border-color: peru;
+}
+
+.titulo {
+    background-color: wheat;
+    color: orangered;
+    margin: 0px;
+    padding: 30px;
+    text-align: left;
+}
+
+nav {
+    height: 40px;
+    margin: 0px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    margin-top: 0px; 
+    list-style-type: none; 
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+}
+
+.container {
+    border: 3px solid;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 30px;
+    border-color: chocolate;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 50px;
+}
+
+.tituloCadastro {
+    background-color: wheat;
+    color: orangered;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.dadosLogin {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.konteiner {
+    border: 3px solid;
+    padding-top: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    border-color: chocolate;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto 50px;
+}
+
+.tituloLogin {
+    background-color: wheat;
+    color: orangered;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* margin-top: -20px;
+    font-size: 30px; */
+}
+
+.dadosCadastro {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#nome {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#senha {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#confirmarSenha {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#enviar {
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.redirect {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.containerMenu {
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
